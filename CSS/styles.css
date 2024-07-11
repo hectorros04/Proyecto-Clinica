@@ -40,7 +40,7 @@ img{
     margin-top: -5px;
     display: flex;
     justify-content: center;
-    background-color: grey;
+    background-color: rgb(0,179,144);
     color: white;
     padding: 20px;
 }
@@ -60,6 +60,45 @@ img{
 .nav_menu.scrolled{
     padding: 0px;
 }
+
+#nosotros_ttl{
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 1.9em;
+    margin: 40px 0px;
+}
+
+.container_nosotros{
+    margin: 0 100px;
+}
+
+h3{
+    color: rgb(0,179,144);
+    font-family: Merriweather;
+}
+
+p{
+    font-family: Merriweather;
+}
+
+.container_date_alta{
+    background-color: grey;
+}
+
+.date_alta{
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt_alta.izquierda{
+    border-right: 2px solid black;
+    
+}
+
+#txt_instrucciones{
+    margin-right: 400px;
+}
+
 
 
 
