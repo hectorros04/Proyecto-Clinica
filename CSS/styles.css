@@ -43,6 +43,8 @@ img{
     background-color: rgb(0,179,144);
     color: white;
     padding: 20px;
+    position: sticky;
+    top: 0;
 }
 
 .btn_nav_main{
@@ -82,22 +84,48 @@ p{
 }
 
 .container_date_alta{
-    background-color: grey;
+    background-color: rgb(0,179,144);
 }
 
-.date_alta{
+.container_alta{
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+    max-width: 1200px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.left, .right {
+    padding: 20px;
+}
+
+.separator {
+    background-color: white; /* Línea divisoria */
+    height: 80%;
+    width: 2px;
+}
+
+#instrucciones{
+    color: white;
+}
+
+.container_movil{
+    margin-left: 150px;
+}
+
+.container_btn_movil{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
 }
 
-.txt_alta.izquierda{
-    border-right: 2px solid black;
-    
+.material-symbols-outlined{
+    color: white;
+    font-weight: 700;
 }
 
-#txt_instrucciones{
-    margin-right: 400px;
-}
+
+
 
 
 

@@ -1,3 +1,13 @@
+const btnPrev = document.getElementById('btn_prev');
+const btnNext = document.getElementById('btn_next');
+
+
+
+
+btnPrev.addEventListener('click', () => {
+
+})
+
 window.addEventListener('scroll', () => {
     const navRegistro = document.querySelector('.nav_menu');
     
